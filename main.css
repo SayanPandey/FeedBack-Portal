@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:white;
+    border-style:ridge;
+    border-width:10px;
+    border-color:white;
+    background-image:url("/feedbackTest/admins/2.gif");
+    border-radius: 50px;
+    padding :20px;
+    text-align:center;
+    font-size:2.5em;	
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:25%;
+    box-shadow:0px 5px 50px white;
+}
+marquee{
+    color:white;
+    background:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+marquee:hover{
+    color:Red;
+}
+#admin,#student{
+    border:ridge 5px;
+    border-radius:40px;
+    text-align:center;
+    font-weight:bold;
+    padding:40px;
+    font-size:1.5em;
+    border-radius:50%;
+    height:200px;
+    width:200px;
+    position:fixed;
+}
+#admin{
+    color:red;
+    bottom:0;
+    right:0;
+    border-color:red;
+    box-shadow:5px 5px 30px #ff0000;
+    background:url('/feedbackTest/admins/6.gif') no-repeat center;
+}
+#student{
+    color:#00d8ff;
+    bottom:0;
+    left:0;
+    border-color:#00d8ff;
+    box-shadow:5px 5px 30px #00d8ff;
+    background:url('/feedbackTest/students/6.gif') no-repeat center;
+}
+#admin:hover{
+    box-shadow:10px 10px 150px #ff0000;
+    color:white;
+    font-weight:bold;
+}
+#admin .tip{
+    color: #ff0000;
+    font-size:0.75em;
+    display:none;
+}
+#admin:hover .tip{
+    display:block;
+}
+#student:hover{
+    box-shadow:10px 10px 150px #00d8ff;
+    color:white;
+    font-weight:bold;
+}
+#student .tip{
+    color: #00d8ff;
+    font-size:0.75em;
+    display:none;
+}
+#student:hover .tip{
+    display:block;
+}
+.left img{
+    position:fixed;
+    left:0;
+    bottom:0;
+}
+.right img{
+    position:fixed;
+    right:0;
+    bottom:-140%;
+}
+#left{
+    background-image:url('/feedbackTest/students/3.gif');
+    min-height:100vh;
+    min-width:49.96vw;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-100;
+}
+#right{
+    background-image:url('/feedbackTest/admins/back.gif');
+    min-height:100vh;
+    min-width:49.96vw;
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:-100;
+}

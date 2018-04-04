@@ -1,0 +1,195 @@
+
+		body{
+			background-image : url("back.gif");
+			background-position : center top;
+			background-attachment:fixed;
+			font-family: Arial, Helvetica, sans-serif;
+			text-align:center;
+
+		}
+		h1{
+			color:#ff0000;
+			border-style:ridge;
+			border-width:10px;
+			border-color:#ff0000;
+			background-image:url("2.gif");
+			border-radius: 50px;
+			padding :20px;
+			text-align:center;
+			font-size:2.5em;	
+			font-family: Arial, Helvetica, sans-serif;
+			border-radius:25%;
+			box-shadow:0px 5px 50px #ff0000;
+		}
+		marquee{
+			color:white;
+			background:black;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.Valiform{
+			background-color:black;
+			background-image: url('2.gif');
+			border:ridge 5px #ff0000;
+			border-radius:50%;
+			text-align:center;
+			color: #ff0000;
+			padding:40px;
+			max-width:50%;
+			font-size:1em;
+			position:relative;
+			z-index:1;
+			box-shadow:10px 10px 100px #ff0000;
+		}
+		marquee:hover{
+			color:Red;
+		}
+		input[type=text]{
+			width:80%;
+			border:solid 5px #ff0000;
+			border-radius:5px;
+			padding:10px;
+			background:#ccffff;
+		}
+		
+		input[type=text]:focus{
+			background-color:white;
+			border-style:ridge;
+			border-radius:5px;
+			width:80%;
+		}
+		input[type=submit],input[type=reset],a{
+			color:black;
+			background:#ff0000;
+			padding:15px;
+			border:none;
+			width:auto;
+			min-width:30%;
+			border-radius:20px;
+			font-weight:bold;
+			font-size:1em;
+			text-decoration:none;
+		}
+		input[type=submit]:hover,input[type=reset]:hover,a:hover{
+			background: white;
+			border-radius:4px;
+			box-shadow:10px 10px 100px white;
+		}
+		#fform{
+			background:Black;
+			border:ridge 5px #ff0000;
+			border-radius:40px;
+			text-align:center;
+			font-size:1em;
+			color:White;
+			font-style:italic;
+			padding:40px;
+			max-width:50%;
+			font-size:1.5em;
+			display:none;
+			position:relative;
+			z-index:1;
+			border-radius:25%;
+			display:none;
+			opacity:0;
+			box-shadow:10px 10px 100px #ff0000;
+		}
+		.Thank{
+			background:Black;
+			border:ridge 5px #ff0000;
+			border-radius:40px;
+			text-align:center;
+			color: #ff0000;
+			padding:40px;
+			max-width:50%;
+			font-size:1.5em;
+			display:none;
+			position:relative;
+			z-index:1;
+			border-radius:50%;
+			box-shadow:10px 10px 100px #ff0000;
+		}
+		.image{
+			position:fixed;
+			bottom:-130%;
+		}
+		#err{
+			display:none;
+			font-weight:bold;
+			color:red;
+		}
+		#wrong{
+			background:Black;
+			border:ridge 5px #ff0000;
+			border-radius:40px;
+			text-align:center;
+			color: #ff0000;
+			padding:40px;
+			max-width:50%;
+			font-size:1.5em;
+			display:none;
+			position:relative;
+			border-radius:50%;
+			box-shadow:10px 10px 100px #ff0000;
+		}
+		#date{
+			color: #ff0000;
+			display: block;
+			text-align:left;
+		}
+		#admin{
+			background:url('6.gif') no-repeat center;
+			border:ridge 5px #ff0000;
+			border-radius:40px;
+			text-align:center;
+			color:#ff0000;
+			font-weight:bold;
+			padding:40px;
+			font-size:1.5em;
+			border-radius:50%;
+			height:200px;
+			width:200px;
+			position:fixed;
+			bottom:0;
+			box-shadow:5px 5px 30px #ff0000;
+			right:0;
+			display:inline-block;
+		}
+		#admin:hover{
+			box-shadow:10px 10px 150px #ff0000;
+			color:white;
+			font-weight:bold;
+		}
+		.tip{
+			color: #ff0000;
+			font-size:0.75em;
+			display:none;
+		}
+		#admin:hover .tip{
+			display:block;
+		}
+		.material-icons{
+			font-size:48px;
+			color:#ff0000;
+		}
+		.material-icons:hover{
+			color:#FFD700;
+			text-shadow: 0px 0px 15px white;
+		}
+		.desc{
+			color:#ff0000;
+			font-size:20px;
+		}
+		textarea{
+			width:80%;
+			height:250px;
+			border:solid 5px #ff0000;
+			border-radius:10%;
+			padding:10px;
+			font-size:1em;
+			font-style:italic;
+			font-weight:bold;
+			background:#ccffff;
+		}
+		.question{
+			text-shadow: 0px 0px 10px white;
+		}
